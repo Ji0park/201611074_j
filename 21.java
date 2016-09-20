@@ -1,0 +1,11 @@
+int a=1;
+new Hello();
+h.sayHello();
+class Hello{
+String toWhom="world";
+Hello(){}
+void sayHello(){
+System.out.println("hello"+toWhom);
+}
+}
+Hello h=new Hello();
